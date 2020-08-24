@@ -59,8 +59,12 @@ public class PTAP_AGUA {
                comprobar = true;
                switch(operacion){
                    case "+":
-                   res = n1 + n2;
-                   break;
+                      res = n1 + n2;
+                      break;
+                   case "-":
+                      res = n1 - n2;
+                      break;
+                    
                }
            }
        }
