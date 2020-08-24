@@ -33,6 +33,14 @@ public class PTAP_AGUA {
            double nume1 = Double.parseDouble(numero1);
            double n1 = new Double(numero1);
            //verificacion de los primeros datos
+           do{
+               System.out.println("\n ¿que operacion desea hacer?(solo coloque un signo)");
+               System.out.println("Teniendo en cuenta que: \n +=sumar \n -=restar \n" 
+               + "x=multiplicar \n /=dividir \n *=eñevar primer numero al segundo numero."
+               + "\n %=residuo");
+               //explicacion de signos
+               )
+           }
        }
     }
     
