@@ -64,7 +64,10 @@ public class PTAP_AGUA {
                    case "-":
                       res = n1 - n2;
                       break;
-                    
+                   case "x":
+                   case "X":
+                     res = n1*n2;
+                     break;
                }
            }
        }
