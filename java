@@ -71,8 +71,13 @@ public class PTAP_AGUA {
                     case "/":
                      while(n2 == 0){
                          do{
-                             
-                         }
+                             System.err.println("En el denominador se encuentra \n"
+                             + "un cero, para evitar errores coloca otro numero.");
+                             numero2 = sc.nextline();
+                         }while(!numero2.matches("[+-]?[\\d]*[.]?[\\d]+"));
+                         nume2 = Double.parseDouble(numero2);
+                         n2 = new Double(numero2);
+                         // division 
                      }
                }
            }
