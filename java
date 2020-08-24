@@ -47,6 +47,14 @@ public class PTAP_AGUA {
                }else { comprobar = false;}
            }while (comprobar !=true);
            // digitos numero 2 ingresados
+           Sting numero2;
+           do {
+               System.out.println("\n por favor, dame el segundo numero);
+               numero2= sc.nextline();
+           }while (!numero2.matches("[+-]?[\\d]*[.]?[\\d]+"));
+           double nume2 = Double.parseDouble(numero2);
+           double n2 = new Double(numero2);
+           //fin de verificacion datos 2
        }
     }
     
