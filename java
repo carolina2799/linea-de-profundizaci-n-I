@@ -68,6 +68,12 @@ public class PTAP_AGUA {
                    case "X":
                      res = n1*n2;
                      break;
+                    case "/":
+                     while(n2 == 0){
+                         do{
+                             
+                         }
+                     }
                }
            }
        }
