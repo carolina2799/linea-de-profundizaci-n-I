@@ -55,6 +55,14 @@ public class PTAP_AGUA {
            double nume2 = Double.parseDouble(numero2);
            double n2 = new Double(numero2);
            //fin de verificacion datos 2
+           do{
+               comprobar = true;
+               switch(operacion){
+                   case "+":
+                   res = n1 + n2;
+                   break;
+               }
+           }
        }
     }
     
