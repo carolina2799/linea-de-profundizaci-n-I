@@ -24,6 +24,16 @@ public class PTAP_AGUA {
        String operacion;
        boolean comprobar = false;
        //Datos
+       do {
+           String numero1;
+           do{
+               System.out.println("\n primer numero");
+               numero1= sc.nextline();
+           }while (!numero1.matches("[+-]?[\\d]*[.]?[\\d]+"));
+           double nume1 = Double.parseDouble(numero1);
+           double n1 = new Double(numero1);
+           //verificacion de los primeros datos
+       }
     }
     
 }
