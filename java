@@ -39,8 +39,14 @@ public class PTAP_AGUA {
                + "x=multiplicar \n /=dividir \n *=eñevar primer numero al segundo numero."
                + "\n %=residuo");
                //explicacion de signos
-               )
-           }
+               operacion = sc.nextline();
+               if (operacion.equals("+") || operacion-equals ("-") || operacion.equals("x") ||
+               operacion.equals("X") || operacion.equals("/") || operacion.equals("%") || 
+               operacion.equals("*")){
+                   comprobar =true;
+               }else { comprobar = false;}
+           }while (comprobar !=true);
+           // digitos numero 2 ingresados
        }
     }
     
