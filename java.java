@@ -79,3 +79,4 @@ public class PTAP_AGUA {
     
 }
 System.out.println("modificación Gomez_Rincon");
+System.out.println("modificación Gomez");
